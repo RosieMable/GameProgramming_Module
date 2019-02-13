@@ -60,7 +60,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MotionWaypoint.cs" />
+    <Compile Include="Assets\Models\MotionWaypoint.cs" />
+    <Compile Include="Assets\Scripts\ActOnUI.cs" />
+    <Compile Include="Assets\Scripts\Error.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\KillOnEscape.cs" />
+    <Compile Include="Assets\Scripts\LevelSelect.cs" />
+    <Compile Include="Assets\Scripts\SaveGame.cs" />
+    <Compile Include="Assets\Scripts\SaveObject.cs" />
+    <Compile Include="Assets\Scripts\UpdateStatus.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/u1708902/Github/GameProgramming_Module/GameplayProgramming_Module/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
